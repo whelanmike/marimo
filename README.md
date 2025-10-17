@@ -31,10 +31,9 @@ The data used in this analysis is from the SIMI's National Vehicle Statistics, s
 
 3.  **Install the required packages:**
 
-    This project requires the following Python packages: `marimo`, `polars`, `duckdb`, `plotly`, and `openpyxl`. You can install them using pip:
-    ```bash
-    pip install marimo polars duckdb plotly openpyxl
-    ```
+    This project requires the following Python packages: `marimo`, `polars`, `duckdb`, `plotly express`.
+    These will automatically install when you run the marimo notebook:
+    
 
 ## Running the Notebook
 
@@ -45,3 +44,14 @@ marimo run car_stats.py
 ```
 
 This will start the Marimo server and open the notebook in your web browser.
+
+## Editing the Notebook
+
+To edit the interactive notebook, use the following command:
+
+```bash
+marimo edit car_stats.py
+```
+
+This will start the Marimo server and open the notebook in your web browser.
+You can change code or add new features as you wish.
